@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-annots_path = Path('MOT20Det-coco/MOT20-05/gt/instances_default.json')
-new_annots_path = Path('MOT20Det-coco/MOT20-05/gt/instances_default_new.json')
+annots_path = Path('instances_default.json')
+new_annots_path = Path('instances_default_new.json')
 
 TO_COMBINE = ['Static person', 'Pedestrian']
 COMBINE_TO = 'Pedestrian'

@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-annots_path = Path('EuroCity_Persons/day/labels/eurocity-day_val_old.json')
-new_annots_path = Path('EuroCity_Persons/day/labels/eurocity-day_val.json')
+annots_path = Path('instances_default.json')
+new_annots_path = Path('instances_default_new.json')
 
 with open(str(annots_path)) as json_file:
     annots = json.load(json_file)

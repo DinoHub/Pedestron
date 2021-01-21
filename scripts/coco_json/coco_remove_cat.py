@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-annots_path = Path('CrowdHuman-coco/crowdhuman_train.json')
-new_annots_path = Path('CrowdHuman-coco/crowdhuman_train_new.json')
+annots_path = Path('instances_default.json')
+new_annots_path = Path('instances_default_new.json')
 
 TO_REMOVE = ['mask']
 

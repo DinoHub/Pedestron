@@ -31,14 +31,18 @@ coco_data["categories"] = new_categories
 
 annots = coco_data["annotations"]
 new_annots = []
+annotations_removed = 0
 
 for annot in annots:
     cat_id = annot["category_id"]
-    if cat_id in id_change:
-        if id_change[cat_id] != 0:
-            annot["category_id"] = id_change[cat_id]
-            new_annots.append(annot)
+    annot_id = annot["id"]
+
+    if id_change[cat_id] == 0:
+        annotations_removed += 1
     else:
+        new_annot_id = annot_id - annotations_removed
+        annot["id"] = new_annot_id
+        annot["category_id"] = id_change[cat_id]
         new_annots.append(annot)
 
 coco_data["annotations"] = new_annots

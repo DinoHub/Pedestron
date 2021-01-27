@@ -22,4 +22,5 @@ Discarded. No GT.
 
 ### Useful links
 [Check out labels and etc.](https://arxiv.org/pdf/1906.04567.pdf)
+
 [Visibility & Occlusion Mapping](https://github.com/openvinotoolkit/cvat/pull/830)

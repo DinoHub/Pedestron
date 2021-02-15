@@ -7,6 +7,7 @@
 | MOT17-13 | 750  | Filmed from a bus (2nd storey) on a busy intersection   |
 
 ### Datumaro
+```
 total images: 1800
 train/val/test ratio: 0.8 0.1 0.1
 subset: train
@@ -21,7 +22,7 @@ subset: test
 num images: 180
 num images with annotations: 180
 num annotations: 6271
-
+```
 
 ## Street Level
 
@@ -35,6 +36,7 @@ num annotations: 6271
 | MOT17-11 | 900  | Forward moving camera in a busy shopping mall           |
 
 ### Datumaro
+```
 total images: 3516
 train/val/test ratio: 0.8 0.1 0.1
 subset: train
@@ -49,6 +51,7 @@ subset: test
 num images: 352
 num images with annotations: 352
 num annotations: 6787
+```
 
 ### Test
 Discarded. No GT.
